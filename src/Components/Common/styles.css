@@ -1,0 +1,28 @@
+/* Button */
+.btn {
+	display: inline-block;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0.8rem 1.6rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.btn.primary {
+	color: var(--dark);
+	background-color: var(--heading-color);
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+/* Inputs */

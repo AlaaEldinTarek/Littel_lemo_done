@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&family=Markazi+Text:wght@400;500&display=swap');
+
+/* Variables */
+:root {
+	--bg-primary: #495e57;
+	--heading-color: #f4ce14;
+	--accent-200: #fbdabb;
+	--accent-800: #ee9972;
+	--dark-200: #edefee;
+	--dark-800: #333;
+	--white: #fff;
+	--dark: #000;
+	--danger: red;
+
+	--font-title: 'Markazi Text', serif;
+	--font-body: 'Karla', sans-serif;
+}
+
+/* Reset */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: var(--font-body);
+	font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-title);
+	font-weight: 500;
+}
+
+ul {
+	list-style: none;
+}
+
+a,
+a:visited,
+a:hover {
+	color: var(--dark);
+	text-decoration: none;
+}
+
+/* Layout */
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Utils */
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Forms */
+input,
+select {
+	width: 100%;
+	padding: 0.8rem 1rem;
+}
+
+label,
+select,
+input[type='date'] {
+	cursor: pointer;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+.input-group {
+	margin-bottom: 1rem;
+}
+
+.input-group.error label {
+	color: var(--danger);
+}
+
+.input-group.error input {
+	border: 1px solid var(--danger);
+}
+
+.input-error {
+	margin: 0.5rem 0 1rem;
+	color: var(--danger);
+	font-size: 0.8rem;
+}

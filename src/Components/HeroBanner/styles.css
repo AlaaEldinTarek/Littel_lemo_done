@@ -1,0 +1,50 @@
+.hero-banner {
+	color: var(--white);
+	background-color: var(--bg-primary);
+	padding: 2rem 0;
+	margin-bottom: 5rem;
+}
+
+.hero-banner .hero-container {
+	justify-content: space-between;
+	position: relative;
+}
+
+.hero-banner .hero-content {
+	max-width: 400px;
+}
+
+.hero-banner .hero-title {
+	font-size: 56px;
+	color: var(--heading-color);
+	line-height: 0.8;
+}
+
+.hero-banner .hero-subtitle {
+	font-size: 32px;
+}
+
+.hero-banner .hero-description {
+	font-size: 18px;
+}
+
+.hero-banner .hero-image {
+	width: 300px;
+	aspect-ratio: 1/1.2;
+	border-radius: 1rem;
+	position: absolute;
+	right: 0;
+	top: 2rem;
+}
+
+@media (max-width: 768px) {
+	.hero-container {
+		flex-direction: column;
+	}
+
+	.hero-container .hero-image {
+		position: static;
+		width: 100%;
+		margin-top: 2rem;
+	}
+}

@@ -1,0 +1,18 @@
+.confirmation-section {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 30vh;
+}
+
+.confirmation-section h1 {
+	font-size: 56px;
+	margin-top: 3rem;
+	line-height: 0.8;
+}
+
+.confirmation-section a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+}

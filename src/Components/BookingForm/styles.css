@@ -1,0 +1,20 @@
+.booking-header {
+	font-size: 56px;
+	margin: 3rem 0;
+	line-height: 0.8;
+}
+
+.booking-section .booking-container {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.booking-section form {
+	width: 100%;
+	max-width: 500px;
+}
+
+.booking-section button {
+	margin: 1.5rem 0;
+}
